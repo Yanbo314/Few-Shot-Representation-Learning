@@ -26,9 +26,9 @@ The learned representations are evaluated using:
 
 ## 📂 Repository Structure
 Few-Shot-Representation-Learning
-│
+
 ├── notebooks/
-│ └── main.ipynb # Main experiment notebook
+   └── main.ipynb # Main experiment notebook
 
 ├── data/ # Dataset storage
 
