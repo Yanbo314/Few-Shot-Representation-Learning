@@ -24,25 +24,18 @@ The learned representations are evaluated using:
 
 ---
 
-## 📂 Repository Structure
-Few-Shot-Representation-Learning
+## 📊 Results
 
-├── notebooks/
-   └── main.ipynb # Main experiment notebook
+| Method | Test Accuracy |
+|------|------|
+| Random Encoder + Linear Probe | 0.283 |
+| SimCLR (3 epochs) + Linear Probe | 0.169 |
+| SimCLR (10 epochs) + Linear Probe | 0.188 |
+| SimCLR (60 epochs) + Linear Probe | 0.xxx |
 
-├── data/ # Dataset storage
+Example comparison plot:
 
-├── checkpoints/ # Saved models
-
-├── results/ # Experiment results
-
-├── figures/ # Plots
-
-├── requirements.txt
-
-└── README.md
-
----
+![Comparison](figures/method_comparison.png)
 
 ## ⚙️ Installation
 
